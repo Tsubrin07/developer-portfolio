@@ -46,9 +46,24 @@ h2{
     padding-left: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 30px gray;
+    
 }
 .experience-area{
     background-image:url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    
+}
+#web-dev-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1 ;
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(241, 76, 57), rgb(250, 155, 139));
+    border-image-slice: 1 ;
+}
+footer p {
+text-align: center
 }
